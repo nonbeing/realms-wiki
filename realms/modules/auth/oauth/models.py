@@ -65,7 +65,8 @@ providers = {
     'google': {
         'oauth': dict(
             request_token_params={
-                'scope': 'https://www.googleapis.com/auth/userinfo.email'
+                'scope': 'https://www.googleapis.com/auth/userinfo.email',
+                'hd': 'cloudcover.in'
             },
             base_url='https://www.googleapis.com/oauth2/v1/',
             request_token_url=None,

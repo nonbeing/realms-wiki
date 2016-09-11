@@ -97,9 +97,9 @@ class Config(object):
     WIKI_HOME = 'home'
 
     AUTH_LOCAL_ENABLE = True
-    ALLOW_ANON = True
+    ALLOW_ANON = False
     REGISTRATION_ENABLED = True
-    PRIVATE_WIKI = False
+    PRIVATE_WIKI = True
 
     # None, firepad, and/or togetherjs
     COLLABORATION = 'togetherjs'
